@@ -1,2 +1,4 @@
-# random-things
-i forgor many times so i rember here
+# i forgor
+guides and other stuff i want to remember
+
+## Table of Contents
