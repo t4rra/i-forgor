@@ -1,5 +1,5 @@
 # pikvm setup with tailscale+https
-i often need remote access to my home pc, and while [i do use other methods of remote access](https://github.com/eaaasun/i-forgor/tree/main/remotedesktop), this is the only way i can access the bios or wake my pc (havent gotten wol to work)
+i often need remote access to my home pc, and while [i do use other methods of remote access](./README.md), this is the only way i can access the bios or wake my pc (havent gotten wol to work)
 
 ## materials
 - Raspberry Pi 4b
