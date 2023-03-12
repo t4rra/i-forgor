@@ -2,5 +2,7 @@
 guides and other stuff i want to remember
 
 ## Table of Contents
-- [networking](./networking/)
-  - 
+- [piracy](./piracy/)
+  - yeah, i'm a filthy pirate.
+- [remote access](./remoteaccess/)
+  - the way i configure my computer to be accessible from anywhere with minimal latency
