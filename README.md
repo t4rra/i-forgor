@@ -4,5 +4,5 @@ guides and other stuff i want to remember
 ## Table of Contents
 - [piracy](./piracy/)
   - yeah, i'm a filthy pirate.
-- [remote access](./remoteaccess/)
-  - the way i configure my computer to be accessible from anywhere with minimal latency
+- [homelab](./homelab/)
+  - pretty much just old PCs tied together with duct tape and a lot of swearing
