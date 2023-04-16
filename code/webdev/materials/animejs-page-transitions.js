@@ -1,19 +1,11 @@
 // All you need to change is the animIn/animOut vars with your own animejs stuff
 // Define the in and out animations
 var animIn = anime({
-  targets: ".transition-overlay",
-  top: ["0%", "-100%"],
-  duration: 750,
-  easing: "easeInOutCubic",
-  autoplay: false,
+  // animejs stuff goes here
 });
 
 var animOut = anime({
-  targets: ".transition-overlay",
-  top: ["100%", "0%"],
-  duration: 750,
-  easing: "easeInOutCubic",
-  autoplay: false,
+  // animejs stuff goes here
 });
 
 // Check for the transition parameter in the URL
