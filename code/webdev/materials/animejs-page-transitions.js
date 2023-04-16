@@ -1,3 +1,4 @@
+// Thanks, ChatGPT
 // All you need to change is the animIn/animOut vars with your own animejs stuff
 // Define the in and out animations
 var animIn = anime({
