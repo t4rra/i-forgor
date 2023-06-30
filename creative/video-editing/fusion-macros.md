@@ -6,6 +6,11 @@ guide to creating fusion macros
 2. create new control or edit existing control
 3. connect other controls to custom control, or whatever else you want to do
 
+## add comment/info text
+1. add `LabelControl` under `Number` type
+2. name it whatever you want
+3. untick the `Show Arrow` box
+
 ## adding a web link
 1. add `ButtonControl` input control (under `Number` type)
 2. set name/ID to wha
