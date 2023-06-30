@@ -31,7 +31,7 @@ Just copy code below, paste into fusion's node panel
 				Input1 = InstanceInput {
 					SourceOp = "TimeStretcher1_1",
 					Source = "FPS",
-					Default = 10,
+					Default = 12,
 				}
 			},
 			Outputs = {
@@ -62,7 +62,7 @@ Just copy code below, paste into fusion's node panel
 							INP_Integer = true,
 							INPID_InputControl = "SliderControl",
 							INP_MaxScale = 60,
-							INP_Default = 12,
+							INP_Default = 10,
 							INP_MinScale = 1,
 							INP_MinAllowed = 1,
 							LINKID_DataType = "Number",
