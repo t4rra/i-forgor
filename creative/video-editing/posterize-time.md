@@ -53,7 +53,7 @@ Just copy code below, paste into fusion's node panel
 						},
 						InterpolateBetweenFrames = Input { Value = 0, },
 						SampleSpread = Input { Disabled = true, },
-						FPS = Input { Value = 6, }
+						FPS = Input { Value = 12, }
 					},
 					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
 					UserControls = ordered() {
