@@ -62,7 +62,7 @@ Just copy code below, paste into fusion's node panel
 							INP_Integer = true,
 							INPID_InputControl = "SliderControl",
 							INP_MaxScale = 60,
-							INP_Default = 10,
+							INP_Default = 12,
 							INP_MinScale = 1,
 							INP_MinAllowed = 1,
 							LINKID_DataType = "Number",
