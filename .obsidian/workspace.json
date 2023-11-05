@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "7f2189db557268ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7a096bb31ccfba5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "222d0b680ae21f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "homelab/resolve-project-server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74f80d7a329beacc",
+    "type": "split",
+    "children": [
+      {
+        "id": "976e0f553b3f3e0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78f18958a56d5353",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1078690cad6bc76e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b70708dc33998902",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8bc55dcab4341fc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7e68e6716e11154",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b314b53ad32ebc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "homelab/resolve-project-server.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aec22c92b076cf41",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "homelab/resolve-project-server.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f28b90fa5b0c677",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "17b4a6e6e46009e2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "homelab/resolve-project-server.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "222d0b680ae21f54",
+  "lastOpenFiles": [
+    "homelab/pikvm.md",
+    "homelab/README.md",
+    "homelab/openmediavault.md",
+    "README.md",
+    "creative/video-editing/posterize-time.md",
+    "piracy/windows-UWP.md",
+    "piracy/office.md",
+    "piracy/README.md",
+    "homelab/media/pikvm.jpg"
+  ]
+}
