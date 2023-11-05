@@ -21,4 +21,3 @@ RPS runs off of Postgres, which can let me connect over tailscale but with the w
 
 ## another (kinda big) problem
 footage isn't shared between the server and client, so you have to manually copy it over. i use davinci resolve's proxy generator app to create proxies of footage and copy it over to a USB drive. 
-/

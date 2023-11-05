@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homelab/resolve-project-server.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "homelab/resolve-project-server.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "homelab/resolve-project-server.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "homelab/resolve-project-server.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,11 +148,22 @@
   },
   "active": "222d0b680ae21f54",
   "lastOpenFiles": [
+    "code/webdev/github pat with netlify.md",
+    "code/webdev/animejs-page-transitions.md",
+    "creative/video-editing/posterize-time.md",
+    "creative/video-editing/fusion-macros.md",
+    "creative/video-editing/ffmpeg-compression.md",
+    "homelab/resolve-project-server.md",
+    "windows/wsa.md",
+    "windows",
+    "code/webdev/materials/animejs-page-transitions.js",
+    "code/webdev/materials",
+    "code/webdev",
+    "code",
     "homelab/pikvm.md",
     "homelab/README.md",
     "homelab/openmediavault.md",
     "README.md",
-    "creative/video-editing/posterize-time.md",
     "piracy/windows-UWP.md",
     "piracy/office.md",
     "piracy/README.md",
