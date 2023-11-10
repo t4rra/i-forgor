@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "piracy/windows-UWP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "piracy/windows-UWP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "piracy/windows-UWP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "piracy/windows-UWP.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "222d0b680ae21f54",
   "lastOpenFiles": [
+    "piracy/office.md",
+    "README.md",
     "code/webdev/github pat with netlify.md",
     "code/webdev/animejs-page-transitions.md",
     "creative/video-editing/posterize-time.md",
@@ -163,9 +165,7 @@
     "homelab/pikvm.md",
     "homelab/README.md",
     "homelab/openmediavault.md",
-    "README.md",
     "piracy/windows-UWP.md",
-    "piracy/office.md",
     "piracy/README.md",
     "homelab/media/pikvm.jpg"
   ]
