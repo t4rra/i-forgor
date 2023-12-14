@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "piracy/windows-UWP.md",
+                "file": "homelab/nas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "piracy/windows-UWP.md",
+                "file": "homelab/nas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "piracy/windows-UWP.md",
+                "file": "homelab/nas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "piracy/windows-UWP.md"
+                "file": "homelab/nas.md"
               }
             }
           }
@@ -148,6 +148,20 @@
   },
   "active": "222d0b680ae21f54",
   "lastOpenFiles": [
+    "Pasted image 20231214000353.png",
+    "homelab/media/Pasted image 20231213233900.png",
+    "Pasted image 20231213233833.png",
+    "homelab/nas.md",
+    "homelab/media/Pasted image 20231213233336.png",
+    "homelab/media/Pasted image 20231213233147.png",
+    "homelab/deprecated/README.md",
+    "homelab/tailscale.md",
+    "homelab/nas setup.md",
+    "homelab/remote-desktop.md",
+    "homelab/pikvm.md",
+    "homelab/deprecated/resolve-project-server.md",
+    "homelab/deprecated",
+    "piracy/windows-UWP.md",
     "piracy/office.md",
     "README.md",
     "code/webdev/github pat with netlify.md",
@@ -155,17 +169,13 @@
     "creative/video-editing/posterize-time.md",
     "creative/video-editing/fusion-macros.md",
     "creative/video-editing/ffmpeg-compression.md",
-    "homelab/resolve-project-server.md",
     "windows/wsa.md",
     "windows",
     "code/webdev/materials/animejs-page-transitions.js",
     "code/webdev/materials",
     "code/webdev",
     "code",
-    "homelab/pikvm.md",
     "homelab/README.md",
-    "homelab/openmediavault.md",
-    "piracy/windows-UWP.md",
     "piracy/README.md",
     "homelab/media/pikvm.jpg"
   ]

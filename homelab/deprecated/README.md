@@ -1,0 +1,2 @@
+- as of december 2023, i've switched to truenas+seafile+tailscale
+- with seafile, the project db+associated video files live on my nas, with local sync on my computer/laptop

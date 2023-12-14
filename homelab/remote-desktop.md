@@ -9,8 +9,7 @@ i often need remote access to my home PC and i don't like to use AIO solutions l
     - [Sunshine](https://github.com/LizardByte/Sunshine)/[Moonlight](https://github.com/moonlight-stream/moonlight-qt)
     - ~1 frame of latency when host/client directly connected with ethernet
   - Alternates
-    - Windows Remote Desktop/Remote Desktop
-    - Better graphics, higher latency, very good compatibility with windows natively
+    - Windows Remote Desktop/Remote Desktop - Better graphics, higher latency, very good compatibility with windows natively
 
 ## setup (Sunshine/Moonlight)
 ### sunshine
