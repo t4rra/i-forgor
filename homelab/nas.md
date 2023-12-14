@@ -11,7 +11,7 @@ for video editing (my main goal) it would completely replace the need for a prox
 > HOWEVER:
 > 	Seafile's proprietary file storage/management is the reason for its speed. Also, Seafile's system has a good reputation, with little reports of things gone wrong. To the second point, Seafile is FOSS (and selfhosted)! You're free to review the code yourself and it's not a small, unknown project by any means.
 > 	--
-> 	None of my peers use Resolve, and I'd argue the setup of Resolve project server is just as big of a hassle as sharing project files 
+> 	I'd argue the setup of Resolve project server is just as big of a hassle as sharing project files 
 
 ## Materials
 - Optiplex 3070
@@ -19,13 +19,12 @@ for video editing (my main goal) it would completely replace the need for a prox
   - 8gb ram
   - no gpu
   - 128gb boot drive
-  - (tbd) ~~ssd storage~~
+  - ~~ssd storage~~ (tbd, currently testing with 3 256gb SSDs in Raid Z1, this shouldn't affect setup in any way)
 - usb drive
 ## Software
 - truenas
 - seafile
 - tailscale
-
 ## Prerequisites
 - tailscale account/existing tailnet setup
 - truenas installed onto server, web UI accessible locally
@@ -36,6 +35,7 @@ for video editing (my main goal) it would completely replace the need for a prox
 	1. paste the auth key, change the hostname if desired
 	2. under `Advertise Routes`, write the IP address of the server, followed by `/32` - this will allow your seafile app to be accessible over the internet
 	3. make sure `Host Network` is checked under `Network Configuration`
+	4. leave other values as default
 ![[Pasted image 20231213233147.png]]
 ![[Pasted image 20231213233336.png]]
 4. push `Install`, then go to your tailscale admin panel
@@ -54,7 +54,10 @@ for video editing (my main goal) it would completely replace the need for a prox
 ### Client Setup
 > I tore my head out trying to access the Seafile port on the tailscale address, which [I found out thanks to this blog post](https://kressle.in/articles/2023/tailscale-on-truenas-scale) that it's still accessible over the internet via the local address because subnet routes (i have no idea what subnet routes are or how ip address work lmao)
 1. [download the seafile drive client for your respective system](https://www.seafile.com/en/download/) (not the desktop syncing client)
-2. sign into the client (see image, it's the same on mac but also asks you to add a thing to finder)
+2. in `truenas > apps > seafile` click on `open` and copy the URL+port (example: 192.168.1.24:8000)
+		> I haven't been able to get the web GUI to sign in; it always tosses a `403: CSRF verification failed` error, but the client GUIs work
+	1. ![[Pasted image 20231214001531.png]]
+4. install and sign into the client (see image)
 	1. ![[Pasted image 20231214000353.png]]
 	2. yes, this is the local address that's accessible over the internet if you have tailscale on your client
-3. 
+5. you should see a new drive in your system named SeaDrive
