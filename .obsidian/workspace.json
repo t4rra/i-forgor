@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homelab/nas.md",
+                "file": "creative/video-editing/ffmpeg-compression.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "homelab/nas.md",
+                "file": "creative/video-editing/ffmpeg-compression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "homelab/nas.md",
+                "file": "creative/video-editing/ffmpeg-compression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "homelab/nas.md"
+                "file": "creative/video-editing/ffmpeg-compression.md"
               }
             }
           }
@@ -148,7 +148,15 @@
   },
   "active": "222d0b680ae21f54",
   "lastOpenFiles": [
+    "creative/video-editing/fusion-macros.md",
+    "creative/video-editing/posterize-time.md",
+    "windows/wsa.md",
+    "piracy/windows-UWP.md",
+    "piracy/office.md",
     "homelab/nas.md",
+    "homelab/tailscale.md",
+    "homelab/deprecated/remote-desktop.md",
+    "homelab/deprecated/pikvm.md",
     "homelab/media/Pasted image 20231213233147.png",
     "homelab/media/Pasted image 20231213233336.png",
     "homelab/media/Pasted image 20231213233900.png",
@@ -156,21 +164,13 @@
     "homelab/media/Pasted image 20231214001531.png",
     "Pasted image 20231213233833.png",
     "homelab/deprecated/README.md",
-    "homelab/tailscale.md",
     "homelab/nas setup.md",
-    "homelab/remote-desktop.md",
-    "homelab/pikvm.md",
     "homelab/deprecated/resolve-project-server.md",
     "homelab/deprecated",
-    "piracy/windows-UWP.md",
-    "piracy/office.md",
     "README.md",
     "code/webdev/github pat with netlify.md",
     "code/webdev/animejs-page-transitions.md",
-    "creative/video-editing/posterize-time.md",
-    "creative/video-editing/fusion-macros.md",
     "creative/video-editing/ffmpeg-compression.md",
-    "windows/wsa.md",
     "windows",
     "code/webdev/materials/animejs-page-transitions.js",
     "code/webdev/materials",

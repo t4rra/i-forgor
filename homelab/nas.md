@@ -14,7 +14,7 @@ for video editing (my main goal) it would completely replace the need for a prox
 > 	I'd argue the setup of Resolve project server is just as big of a hassle as sharing project files 
 
 ## Materials
-- Optiplex 3070
+- Old PC (Optiplex 3070)
   - i3-9100f
   - 8gb ram
   - no gpu
@@ -52,7 +52,7 @@ for video editing (my main goal) it would completely replace the need for a prox
 	4. leave all other values as default
 3. push `Install`, and you're done!
 ### Client Setup
-> I tore my head out trying to access the Seafile port on the tailscale address, which [I found out thanks to this blog post](https://kressle.in/articles/2023/tailscale-on-truenas-scale) that it's still accessible over the internet via the local address because subnet routes (i have no idea what subnet routes are or how ip address work lmao)
+> I tore my hair out trying to access the Seafile port on the tailscale address, which [thanks to this blog post](https://kressle.in/articles/2023/tailscale-on-truenas-scale) said that it's still accessible over the internet via the local address because subnet routes (i have no idea what subnet routes are or how ip address work lmao)
 1. [download the seafile drive client for your respective system](https://www.seafile.com/en/download/) (not the desktop syncing client)
 2. in `truenas > apps > seafile` click on `open` and copy the URL+port (example: 192.168.1.24:8000)
 		> I haven't been able to get the web GUI to sign in; it always tosses a `403: CSRF verification failed` error, but the client GUIs work
@@ -61,3 +61,5 @@ for video editing (my main goal) it would completely replace the need for a prox
 	1. ![[Pasted image 20231214000353.png]]
 	2. yes, this is the local address that's accessible over the internet if you have tailscale on your client
 5. you should see a new drive in your system named SeaDrive
+6. you can start uploading files to the various folders!
+> NOTE: Don't place files at the root of Seadrive, it'll get deleted!
