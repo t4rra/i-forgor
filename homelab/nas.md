@@ -5,29 +5,43 @@ for video editing (my main goal) it would completely replace the need for a prox
 
 > NOTE:
 > 	Seafile stores/manages files in a proprietary way that makes it difficult to recover if it breaks, and is developed by a Bejing-based company. 
-> 	--
+> 	
 > 	Additionally, you won't get any online collaboration as opposed to using Resolve Project Server.
 
 > HOWEVER:
 > 	Seafile's proprietary file storage/management is the reason for its speed. Also, Seafile's system has a good reputation, with little reports of things gone wrong. To the second point, Seafile is FOSS (and selfhosted)! You're free to review the code yourself and it's not a small, unknown project by any means.
-> 	--
+> 	
 > 	I'd argue the setup of Resolve project server is just as big of a hassle as sharing project files 
 
 ## Materials
-- Old PC (Optiplex 3070)
-  - i3-9100f
-  - 8gb ram
+- Old PC (Dell Precision 3620)
+  - i7-6700
+  - 20gb ram
   - no gpu
-  - 128gb boot drive
-  - ~~ssd storage~~ (tbd, currently testing with 3 256gb SSDs in Raid Z1, this shouldn't affect setup in any way)
+  - 256gb boot ssd
+  - 4x3tb HGST Deskstar HDD (HDN724030ALE640)
+  - 2x 3.5in to 5.25in drive adapters (for mounting the other two HDDs)
 - usb drive
+- Raspberry Pi (i have a base model 4b) [not required if you don't need wifi]
 ## Software
 - truenas
 - seafile
 - tailscale
 ## Prerequisites
 - tailscale account/existing tailnet setup
-- truenas installed onto server, web UI accessible locally
+- truenas installed onto server, web UI accessible locally (just flash truenas onto usb, boot into it, and install w/ default settings)
+## Raspberry Pi Setup
+> NOTE: Skip this section if you're connecting your NAS directly over ethernet.
+
+Unfortunately, truenas doesn't support wifi (natively) and [attempting to install it](https://clint.id.au/?p=2958) didn't work. I had a raspberry pi lying around (it used to be [my pc's ip kvm](./deprecated/pikvm.md)) and I figured it could probably work as a wifi-to-ethernet bridge. 
+
+1. Install Raspbian Lite (I'm using the `2023-12-05` release, also you don't need the GUI for any of this)
+	- I recommend using the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) so you can preset the username/password, add wifi network/password, and enable ssh
+2. Use the `wifi-to-eth-route.sh` script from [this repository](https://github.com/arpitjindal97/raspbian-recipes) according to its README file.
+3. Connect the Raspberry Pi to your server via ethernet and you're done!
+
+> ANOTHER NOTE: I've found that the ethernet connection drops after a minute or two when it first boots. [This seems to be a known issue](https://github.com/arpitjindal97/raspbian-recipes/issues/66) and the current solution is just to run the aforementioned script again.
+
 ## Tailscale Setup
 1. get [an auth key from tailscale](https://tailscale.com/kb/1085/auth-keys) - a one-off one will do just fine, toggle `Pre-approved` for convenience 
 2. install tailscale from truenas' apps; it'll bring you to a config page
