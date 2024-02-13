@@ -87,6 +87,8 @@ Unfortunately, truenas doesn't support wifi (natively) and [attempting to instal
 ### Changing Seafile's Hostname
 If you cannot download files from the web GUI, it's likely that you have messed up the hostname. I didn't know what the hostname did until I set it without Seafile's port, and realized my mistake.
 
+> thanks [this forum post](https://forum.seafile.com/t/change-hostnme-of-established-seafile-server/4766) and [this article](https://truecharts.org/manual/SCALE/guides/pvc-access/)
+
 1. Stop Seafile if it's currently running.
 2. Install [heavy_script](https://github.com/Heavybullets8/heavy_script?tab=readme-ov-file#how-to-install) with sudo.
 3. Run heavy_script with command `heavyscript`
