@@ -26,7 +26,7 @@ this is a pretty good google drive desktop app replacement for me, as it lets me
 - truenas
 - seafile
 - tailscale
-- OpenWrt
+- OpenWrt (only if using Raspi/wifi)
 ## Prerequisites
 - tailscale account/existing tailnet setup
 - truenas installed onto server, web UI accessible locally (just flash truenas onto usb, boot into it, and install w/ default settings)
