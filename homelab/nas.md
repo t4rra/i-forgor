@@ -17,7 +17,7 @@ this is a pretty good google drive desktop app replacement for me, as it lets me
   - i7-6700
   - 20gb ram
   - no gpu
-  - 256gb boot ssd
+  - 2x 256gb boot ssd (truenas installed on both for redundancy)
   - 4x3tb HGST Deskstar HDD (HDN724030ALE640)
   - 2x 3.5in to 5.25in drive adapters (for mounting the other two HDDs)
 - usb drive
