@@ -1,4 +1,6 @@
 # Fixing Davinci Resolve (18.6) Gamma Shift on Mac
+god i hate color management
+
 This is a known problem plaguing mac users of Davinci Resolve. When exporting, the output file has a gamma shift as compared to the preview inside of Resolve.
 
 ## Steps
